@@ -3,3 +3,7 @@
     color: red;
     font-weight: bold;
 }
+
+.show {
+    display: block; /* Or whatever display type suits your layout */
+}
