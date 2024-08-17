@@ -17,6 +17,7 @@ function hideError() {
 function checkPagesOrDays(pages, days) {
     if ((pages && pages > 0) && (days && days > 0)) {
         console.log("Action Performed!");
+        resultMessage.classList.remove('hide');
         hideError();
 
         // Calculate pages per day
@@ -29,10 +30,13 @@ function checkPagesOrDays(pages, days) {
         const booksPerYear = totalPagesPerYear / averagePagesPerBook;
 
         // Display the result in the result message element
+        // resultMessage.classList.add('show');
         resultMessage.textContent = `You will finish approximately ${booksPerYear.toFixed(2)} books in a year.`;
     } else {
         console.log("Please Try Again");
+        resultMessage.classList.add('hide');
         showError();
+        
     }
 }
 

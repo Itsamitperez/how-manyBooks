@@ -7,3 +7,6 @@
 .show {
     display: block; /* Or whatever display type suits your layout */
 }
+.hide{
+    display: none;
+}
