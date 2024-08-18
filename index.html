@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How many books will you read?</title>
+    <title>How Many Books Will You Read?</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <button>
+    <nav class="navbar">
+        <button class="nav-button" onclick="location.href='index.html'" type="button">
             <span>📚</span>
             <h3>Books Calculator</h3>
         </button>
     </nav>
     <div class="title">
-        <h1>How many books?</h1>
+        <h1>How Many Books?</h1>
     </div>
-    <section>
+    <section class="calculator-section">
         <div class="howMany">
-            <p>If I read <input type="text" class="pages-count"> pages, every <input type="text" class="days-count"> day/s</p>
+            <p>If I read <input type="number" class="pages-count" placeholder="Pages"> pages, every 
+            <input type="number" class="days-count" placeholder="Days"> day/s...</p>
             <button class="checkResult">Check</button>
         </div>
         <div class="result-container">
             <p class="result-message"></p> <!-- Element to display the result -->
         </div>
-        <p class="errorMessage">*please enter a real number</p>
+        <p class="errorMessage">*Please enter a real number</p>
     </section>
     <script src="main.js"></script>
 </body>
