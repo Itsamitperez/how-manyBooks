@@ -100,6 +100,17 @@ body {
     text-align: center;
     display: none; /* Initially hidden */
 }
+.about{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about img{
+    width: 85px;
+    height: 80px;
+    border: #fff;
+    border-radius: 30rem;
+}
 
 /* Mobile Media Query */
 @media (max-width: 600px) {
@@ -129,19 +140,12 @@ body {
     .result-message {
         font-size: 1.2em;
     }
+    .about{
+        padding: 0px 60px;
+    }
 }
 
-.about{
-    text-align: center;
-    margin-top: 30px;
-}
 
-.about img{
-    width: 85px;
-    height: 80px;
-    border: #fff;
-    border-radius: 30rem;
-}
 
 .show {
     display: block; /* Or whatever display type suits your layout */
