@@ -131,6 +131,18 @@ body {
     }
 }
 
+.about{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about img{
+    width: 85px;
+    height: 80px;
+    border: #fff;
+    border-radius: 30rem;
+}
+
 .show {
     display: block; /* Or whatever display type suits your layout */
 }
